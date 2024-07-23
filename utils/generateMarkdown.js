@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
   } else if (license.includes("GNU")) {
     licenseBadgeStr = prefix + "(https://img.shields.io/badge/GNU-License-green?logo=gnu)";
   } else if (license.includes("Creative Commons")) {
-    licenseBadgeStr = prefix + "(https://img.shields.io/badge/CreativeCommons-License-green?logo=creativecommons)";
+    licenseBadgeStr = prefix + "(https://img.shields.io/badge/CreativeCommons-License-yello?logo=creativecommons)";
   }
   return licenseBadgeStr;
 }
